@@ -1,6 +1,5 @@
 # Automated ML Training Infrastructure
 
-
 This project simulates an ML training workflow and adds basic observability/monitoring around it.
 It trains a simple binary classifier and logs epoch metrics so that the training behavior can be viewed after the run. Probably going to add a KPI indicator or some type of visualizer in future renditions.
 Each epoch is logged to a .jsonl file with timestamp, epoch number, loss, accuracy, learning rate, and runtime.

@@ -96,3 +96,4 @@ class TrainingMonitor:
             json.dump(summary, f, indent=2)
 
         return summary
+    
